@@ -1,0 +1,52 @@
+h1 {
+    font-size: 2rem;
+   
+  }
+
+  h5 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #888;
+    font-weight: 800;
+  }
+  
+  .portfolio-heading {
+    font-size: 3em;
+    font-weight: 900;
+    color: rgb(25, 189, 52);
+  }
+  
+  .card-container {
+    font-size: 1.2em;
+    padding: 0px 1em;
+    font-weight: 500;
+    margin: auto;
+    color: whitesmoke;
+  }
+  
+  .portfolio-background {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .cardImg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 8px;
+  }
+  
+  .col {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    text-align: center;
+  }

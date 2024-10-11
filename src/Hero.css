@@ -1,0 +1,50 @@
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  
+    
+    
+    
+    background-size: cover;
+    color: whitesmoke;
+
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+.hero-text h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    
+    
+}
+
+.hero-button {
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: #99866d;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #99866d;
+}
+
+.hero-background {
+    height: 50vh;
+    background-image: url('./images/aes.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
