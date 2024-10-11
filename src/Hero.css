@@ -42,7 +42,7 @@
 
 .hero-background {
     height: 50vh;
-    background-image: url('./images/aes.jpg');
+    background-image: url('/images/aes.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
